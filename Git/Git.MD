@@ -6,7 +6,6 @@
 [LearningItBranching](https://learngitbranching.js.org/) - https://learngitbranching.js.org/
 
 
-
 ## Merge vs Rebase
 ###Merge
 - Merge creates an extra commit
