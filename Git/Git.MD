@@ -7,9 +7,9 @@
 
 
 ## Merge vs Rebase
-###Merge
+### Merge
 - Merge creates an extra commit
 - Merge present all conflicts at once
 
-###Rebase  
+### Rebase  
 - Rebase present conflict **one commit** at a time
