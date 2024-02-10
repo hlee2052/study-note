@@ -1,16 +1,18 @@
-# Spring Boot Note
+# Spring Boot
 
 ## Prerequisites
 
 ### Classpath
-###Inversion of Control
+
+#### Inversion of Control
 - process in which object defines its dependencies without creating them
-###Dependency Injection
+
+- Dependency Injection
 
 
 ## Annotations
 
-###@Bean
+### @Bean
 - a bean is object that is **instantiate**, **assembled**, and managed by a Spring IoC
 - annotation explicitly declares a **single** bean  
 - bean is for **method level**
