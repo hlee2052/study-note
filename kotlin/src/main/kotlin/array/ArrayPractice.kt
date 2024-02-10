@@ -86,12 +86,6 @@ fun main() {
     arr11.clear();
     var cloned = arr11.clone();
     var sublist = arr11.subList(0, 4)
-
-
-
-
-
-
 }
 
 class Cat {
