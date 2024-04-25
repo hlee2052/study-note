@@ -1,0 +1,30 @@
+apiVersion: apps/v1 # note version
+kind: ReplicaSet
+metadata:
+  name: myapp-replicaset
+  labels:
+    app: myapp
+    type: front-end
+
+spec:
+  template:
+    metadata:
+      name: myapp-pod
+      labels:
+        app: myapp
+        type: front-end
+    spec:
+      containers:
+        - name: nginx-container
+          image: nginx
+  replicas: 3
+
+  # specify pod
+  # replicaset can manage pod that were not created as a part of replicaset creation.
+  selector:
+    matchLabels:
+      type: front-end
+
+# kubectl create -f replicaset-definition.yaml
+# kubectl get replicaset
+# kubectl get pods

@@ -103,8 +103,6 @@ build/
 
 # Sensitive or environment-specific files
 *.properties
-*.yml
-*.yaml
 
 # Compiled class file
 *.class
