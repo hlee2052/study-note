@@ -31,3 +31,13 @@ Scale
 - kubectl delete replicaset myapp-replicaset # also deletes all pods
 - kubectl replace -f replicaset-definition.yaml
 - kubectl scale -replicas=6 -f replicaset-definition.yaml # w/o changing file
+- kubectl scale replicaset replicaset my-replica-set --replicas=6
+- kubectl edit replicaset my-replica-set
+
+## Deployments
+
+- rolling update
+- undo changes
+- See <b> deployment-definition.yaml</b>
+- kubectl get all
+- kubectl create -f deployment-definition.yaml

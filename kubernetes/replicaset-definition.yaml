@@ -25,6 +25,6 @@ spec:
     matchLabels:
       type: front-end
 
-# kubectl create -f replicaset-definition.yaml
+# kubectl create -f set-definition.yaml
 # kubectl get replicaset
 # kubectl get pods
