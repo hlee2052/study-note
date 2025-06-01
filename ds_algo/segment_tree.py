@@ -1,6 +1,7 @@
 class SegmentTree:
     def __init__(self, array):
         self.array = array
+        # if size is not power of 2... then we won't have complete tree
         self.tree = [0 for _ in range(4 * len(self.array))]
 
     def build(self, node, left, right):
